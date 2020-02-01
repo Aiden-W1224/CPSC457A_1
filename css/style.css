@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background: white;
+    text-align: left;
+    text-indent: 1em;
+}
+
+
+.NewArrivals{
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    min-width: 1080px;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-225%, 150%);
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .center1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(60%, 150%);
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .center2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-160%, 1100%);
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .center3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(100%, 1100%);
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+.spaghetti {
+    background-image: url(../images/spaghetti.jpg);
+    width: 33.33%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 30px;
+    opacity: 0.75;
+    float: left;
+    padding: 5px;
+    margin-right: 185px;
+    margin-left: 120px;
+    height: 700px;
+    
+
+}
+
+.chicken {
+    background-image: url(../images/chicken.jpg);
+    width: 33.33%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.75;
+    float: left;
+    padding: 5px;
+    margin: 30px;
+    height: 700px;;
+}
+
+.macandCheese {
+    background-image: url(../images/macandCheese.jpg);
+    width: 33.33%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.75;
+    float: left;
+    padding: 5px;
+    margin: 30px;
+    margin-left: 120px;
+    margin-right: 185px;
+    margin-top: -230px;
+    height: 700px;;
+}
+
+.steak {
+    background-image: url(../images/steak.jpg);
+    width: 33.33%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.75;
+    float: left;
+    padding: 5px;
+    margin: 30px;
+    height: 700px;
+    margin-top: -15%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.spaghettiPage .spaghettiTitle {
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+
+.introP {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.spaghettiImg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        max-height: 800px;
+}
+.chickenImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    max-height: 800px;
+}
+
+.align{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 15px;
+    
+}
+
+.steps {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    text-align: center;
+    padding: 15px;
+}
